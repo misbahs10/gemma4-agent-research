@@ -101,8 +101,8 @@ gemma4-agent-research/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/misbahs10/gemma4-agent-research.git
+cd gemma4-agent-research
 ```
 
 Replace the placeholder URL with the actual repository URL after creating it.
