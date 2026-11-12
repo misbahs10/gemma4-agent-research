@@ -1,0 +1,281 @@
+{
+    "benchmark_name": "Repository Graph Reasoning Benchmark",
+    "version": "0.3",
+    "tasks": [
+        {
+            "task_id": "repo001_task001",
+            "repository_id": "repo001",
+            "task_type": "symbol_localization",
+            "task": "Find where the multiplication operation is implemented.",
+            "expected_files": [
+                "calculator.py"
+            ],
+            "expected_symbols": [
+                "multiply"
+            ],
+            "expected_relationships": []
+        },
+        {
+            "task_id": "repo001_task002",
+            "repository_id": "repo001",
+            "task_type": "symbol_localization",
+            "task": "Find the function that adds two numbers.",
+            "expected_files": [
+                "calculator.py"
+            ],
+            "expected_symbols": [
+                "add"
+            ],
+            "expected_relationships": []
+        },
+        {
+            "task_id": "repo001_task003",
+            "repository_id": "repo001",
+            "task_type": "dependency_localization",
+            "task": "Find where the result formatting functionality is implemented.",
+            "expected_files": [
+                "utils.py"
+            ],
+            "expected_symbols": [
+                "format_result"
+            ],
+            "expected_relationships": []
+        },
+        {
+            "task_id": "repo001_task004",
+            "repository_id": "repo001",
+            "task_type": "dependency_reasoning",
+            "task": "Find which file calculator.py depends on.",
+            "expected_files": [
+                "utils.py"
+            ],
+            "expected_symbols": [],
+            "expected_relationships": [
+                "calculator.py -> utils.py"
+            ]
+        },
+        {
+            "task_id": "repo001_task005",
+            "repository_id": "repo001",
+            "task_type": "path_reasoning",
+            "task": "Trace the code path from run to multiply.",
+            "expected_files": [
+                "main.py",
+                "calculator.py"
+            ],
+            "expected_symbols": [
+                "run",
+                "multiply"
+            ],
+            "expected_relationships": [
+                "main.py:run -> calculator.py:multiply"
+            ]
+        },
+        {
+            "task_id": "repo001_task006",
+            "repository_id": "repo001",
+            "task_type": "symbol_localization",
+            "task": "Find the Calculator class.",
+            "expected_files": [
+                "calculator.py"
+            ],
+            "expected_symbols": [
+                "Calculator"
+            ],
+            "expected_relationships": []
+        },
+        {
+            "task_id": "repo001_task007",
+            "repository_id": "repo001",
+            "task_type": "symbol_localization",
+            "task": "Find the function that formats a calculated result.",
+            "expected_files": [
+                "utils.py"
+            ],
+            "expected_symbols": [
+                "format_result"
+            ],
+            "expected_relationships": []
+        },
+        {
+            "task_id": "repo001_task008",
+            "repository_id": "repo001",
+            "task_type": "dependency_reasoning",
+            "task": "Find which file provides the format_result function used by calculator.py.",
+            "expected_files": [
+                "utils.py",
+                "calculator.py"
+            ],
+            "expected_symbols": [
+                "format_result",
+                "show_result"
+            ],
+            "expected_relationships": [
+                "calculator.py -> utils.py"
+            ]
+        },
+        {
+            "task_id": "repo001_task009",
+            "repository_id": "repo001",
+            "task_type": "path_reasoning",
+            "task": "Find the function that starts the calculation workflow.",
+            "expected_files": [
+                "main.py"
+            ],
+            "expected_symbols": [
+                "run"
+            ],
+            "expected_relationships": []
+        },
+        {
+            "task_id": "repo001_task010",
+            "repository_id": "repo001",
+            "task_type": "path_reasoning",
+            "task": "Trace how the add function is used by the main program.",
+            "expected_files": [
+                "main.py",
+                "calculator.py"
+            ],
+            "expected_symbols": [
+                "run",
+                "add"
+            ],
+            "expected_relationships": [
+                "main.py:run -> calculator.py:add"
+            ]
+        },
+        {
+            "task_id": "repo002_task001",
+            "repository_id": "repo002",
+            "task_type": "symbol_localization",
+            "task": "Find where the create_order function is implemented.",
+            "expected_files": [
+                "order_service.py"
+            ],
+            "expected_symbols": [
+                "create_order"
+            ],
+            "expected_relationships": []
+        },
+        {
+            "task_id": "repo002_task002",
+            "repository_id": "repo002",
+            "task_type": "symbol_localization",
+            "task": "Find where the calculate_total function is implemented.",
+            "expected_files": [
+                "pricing.py"
+            ],
+            "expected_symbols": [
+                "calculate_total"
+            ],
+            "expected_relationships": []
+        },
+        {
+            "task_id": "repo002_task003",
+            "repository_id": "repo002",
+            "task_type": "symbol_localization",
+            "task": "Find where the apply_discount function is implemented.",
+            "expected_files": [
+                "discounts.py"
+            ],
+            "expected_symbols": [
+                "apply_discount"
+            ],
+            "expected_relationships": []
+        },
+        {
+            "task_id": "repo002_task004",
+            "repository_id": "repo002",
+            "task_type": "path_reasoning",
+            "task": "Trace the function call from run in main.py to create_order in order_service.py.",
+            "expected_files": [
+                "main.py",
+                "order_service.py"
+            ],
+            "expected_symbols": [
+                "run",
+                "create_order"
+            ],
+            "expected_relationships": [
+                "main.py:run -> order_service.py:create_order"
+            ]
+        },
+        {
+            "task_id": "repo002_task005",
+            "repository_id": "repo002",
+            "task_type": "path_reasoning",
+            "task": "Trace how create_order calls calculate_total across the order service and pricing modules.",
+            "expected_files": [
+                "order_service.py",
+                "pricing.py"
+            ],
+            "expected_symbols": [
+                "create_order",
+                "calculate_total"
+            ],
+            "expected_relationships": [
+                "order_service.py:create_order -> pricing.py:calculate_total"
+            ]
+        },
+        {
+            "task_id": "repo002_task006",
+            "repository_id": "repo002",
+            "task_type": "path_reasoning",
+            "task": "Trace how calculate_total delegates the discount calculation to apply_discount.",
+            "expected_files": [
+                "pricing.py",
+                "discounts.py"
+            ],
+            "expected_symbols": [
+                "calculate_total",
+                "apply_discount"
+            ],
+            "expected_relationships": [
+                "pricing.py:calculate_total -> discounts.py:apply_discount"
+            ]
+        },
+        {
+            "task_id": "repo002_task007",
+            "repository_id": "repo002",
+            "task_type": "path_reasoning",
+            "task": "Trace the order-processing flow from run in main.py through create_order to calculate_total in pricing.py. Return the files, symbols, and direct function-call relationships involved.",
+            "expected_files": [
+                "main.py",
+                "order_service.py",
+                "pricing.py"
+            ],
+            "expected_symbols": [
+                "run",
+                "create_order",
+                "calculate_total"
+            ],
+            "expected_relationships": [
+                "main.py:run -> order_service.py:create_order",
+                "order_service.py:create_order -> pricing.py:calculate_total"
+            ]
+        },
+        {
+            "task_id": "repo002_task008",
+            "repository_id": "repo002",
+            "task_type": "path_reasoning",
+            "task": "Trace the complete function-call chain from run in main.py to apply_discount in discounts.py. Return all participating files, symbols, and direct function-call relationships.",
+            "expected_files": [
+                "main.py",
+                "order_service.py",
+                "pricing.py",
+                "discounts.py"
+            ],
+            "expected_symbols": [
+                "run",
+                "create_order",
+                "calculate_total",
+                "apply_discount"
+            ],
+            "expected_relationships": [
+                "main.py:run -> order_service.py:create_order",
+                "order_service.py:create_order -> pricing.py:calculate_total",
+                "pricing.py:calculate_total -> discounts.py:apply_discount"
+            ]
+        }
+    ]
+}

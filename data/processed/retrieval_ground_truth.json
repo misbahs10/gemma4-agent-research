@@ -1,0 +1,30 @@
+{
+    "queries": [
+        {
+            "query": "multiply calculator",
+            "relevant_files": [
+                "calculator.py"
+            ]
+        },
+        {
+            "query": "perform multiplication",
+            "relevant_files": [
+                "calculator.py"
+            ]
+        },
+        {
+            "query": "calculate total",
+            "relevant_files": [
+                "main.py",
+                "calculator.py"
+            ]
+        },
+        {
+            "query": "format result",
+            "relevant_files": [
+                "utils.py",
+                "calculator.py"
+            ]
+        }
+    ]
+}

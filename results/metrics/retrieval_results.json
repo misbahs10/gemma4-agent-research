@@ -1,0 +1,196 @@
+{
+    "lexical": {
+        "metrics": {
+            "precision_at_3": 0.5416666666666666,
+            "recall_at_3": 0.625,
+            "mrr": 0.625
+        },
+        "queries": [
+            {
+                "query": "multiply calculator",
+                "relevant_files": [
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "main.py",
+                    "calculator.py"
+                ],
+                "precision_at_3": 0.5,
+                "recall_at_3": 1.0,
+                "mrr": 0.5
+            },
+            {
+                "query": "perform multiplication",
+                "relevant_files": [
+                    "calculator.py"
+                ],
+                "retrieved_files": [],
+                "precision_at_3": 0.0,
+                "recall_at_3": 0.0,
+                "mrr": 0.0
+            },
+            {
+                "query": "calculate total",
+                "relevant_files": [
+                    "main.py",
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "main.py"
+                ],
+                "precision_at_3": 1.0,
+                "recall_at_3": 0.5,
+                "mrr": 1.0
+            },
+            {
+                "query": "format result",
+                "relevant_files": [
+                    "utils.py",
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "calculator.py",
+                    "utils.py",
+                    "main.py"
+                ],
+                "precision_at_3": 0.6666666666666666,
+                "recall_at_3": 1.0,
+                "mrr": 1.0
+            }
+        ]
+    },
+    "semantic": {
+        "metrics": {
+            "precision_at_3": 0.5,
+            "recall_at_3": 1.0,
+            "mrr": 0.75
+        },
+        "queries": [
+            {
+                "query": "multiply calculator",
+                "relevant_files": [
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "main.py",
+                    "calculator.py",
+                    "utils.py"
+                ],
+                "precision_at_3": 0.3333333333333333,
+                "recall_at_3": 1.0,
+                "mrr": 0.5
+            },
+            {
+                "query": "perform multiplication",
+                "relevant_files": [
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "main.py",
+                    "calculator.py",
+                    "utils.py"
+                ],
+                "precision_at_3": 0.3333333333333333,
+                "recall_at_3": 1.0,
+                "mrr": 0.5
+            },
+            {
+                "query": "calculate total",
+                "relevant_files": [
+                    "main.py",
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "main.py",
+                    "calculator.py",
+                    "utils.py"
+                ],
+                "precision_at_3": 0.6666666666666666,
+                "recall_at_3": 1.0,
+                "mrr": 1.0
+            },
+            {
+                "query": "format result",
+                "relevant_files": [
+                    "utils.py",
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "utils.py",
+                    "calculator.py",
+                    "main.py"
+                ],
+                "precision_at_3": 0.6666666666666666,
+                "recall_at_3": 1.0,
+                "mrr": 1.0
+            }
+        ]
+    },
+    "graph_augmented": {
+        "metrics": {
+            "precision_at_3": 0.5,
+            "recall_at_3": 1.0,
+            "mrr": 0.75
+        },
+        "queries": [
+            {
+                "query": "multiply calculator",
+                "relevant_files": [
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "main.py",
+                    "calculator.py",
+                    "utils.py"
+                ],
+                "precision_at_3": 0.3333333333333333,
+                "recall_at_3": 1.0,
+                "mrr": 0.5
+            },
+            {
+                "query": "perform multiplication",
+                "relevant_files": [
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "main.py",
+                    "calculator.py",
+                    "utils.py"
+                ],
+                "precision_at_3": 0.3333333333333333,
+                "recall_at_3": 1.0,
+                "mrr": 0.5
+            },
+            {
+                "query": "calculate total",
+                "relevant_files": [
+                    "main.py",
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "main.py",
+                    "calculator.py",
+                    "utils.py"
+                ],
+                "precision_at_3": 0.6666666666666666,
+                "recall_at_3": 1.0,
+                "mrr": 1.0
+            },
+            {
+                "query": "format result",
+                "relevant_files": [
+                    "utils.py",
+                    "calculator.py"
+                ],
+                "retrieved_files": [
+                    "utils.py",
+                    "calculator.py",
+                    "main.py"
+                ],
+                "precision_at_3": 0.6666666666666666,
+                "recall_at_3": 1.0,
+                "mrr": 1.0
+            }
+        ]
+    }
+}

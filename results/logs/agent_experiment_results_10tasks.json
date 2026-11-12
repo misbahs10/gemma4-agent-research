@@ -1,0 +1,666 @@
+[
+    {
+        "task_id": "repo001_task001",
+        "task": "Find where the multiplication operation is implemented.",
+        "task_type": "symbol_localization",
+        "agent": "baseline",
+        "status": "completed",
+        "expected_files": [
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "calculator.py"
+        ],
+        "expected_symbols": [
+            "multiply"
+        ],
+        "predicted_symbols": [
+            "multiply"
+        ],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": true,
+        "symbol_precision": 1.0,
+        "symbol_recall": 1.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task001",
+        "task": "Find where the multiplication operation is implemented.",
+        "task_type": "symbol_localization",
+        "agent": "graph_augmented",
+        "status": "completed",
+        "expected_files": [
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "calculator.py"
+        ],
+        "expected_symbols": [
+            "multiply"
+        ],
+        "predicted_symbols": [
+            "multiply"
+        ],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": true,
+        "symbol_precision": 1.0,
+        "symbol_recall": 1.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 1
+    },
+    {
+        "task_id": "repo001_task002",
+        "task": "Find the function that adds two numbers.",
+        "task_type": "symbol_localization",
+        "agent": "baseline",
+        "status": "completed",
+        "expected_files": [
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "main.py"
+        ],
+        "expected_symbols": [
+            "add"
+        ],
+        "predicted_symbols": [
+            "run"
+        ],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": false,
+        "file_precision": 0.0,
+        "file_recall": 0.0,
+        "symbol_exact_match": false,
+        "symbol_precision": 0.0,
+        "symbol_recall": 0.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task002",
+        "task": "Find the function that adds two numbers.",
+        "task_type": "symbol_localization",
+        "agent": "graph_augmented",
+        "status": "completed",
+        "expected_files": [
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "calculator.py"
+        ],
+        "expected_symbols": [
+            "add"
+        ],
+        "predicted_symbols": [
+            "add"
+        ],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": true,
+        "symbol_precision": 1.0,
+        "symbol_recall": 1.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 1
+    },
+    {
+        "task_id": "repo001_task003",
+        "task": "Find where the result formatting functionality is implemented.",
+        "task_type": "dependency_localization",
+        "agent": "baseline",
+        "status": "completed",
+        "expected_files": [
+            "utils.py"
+        ],
+        "predicted_files": [
+            "utils.py"
+        ],
+        "expected_symbols": [
+            "format_result"
+        ],
+        "predicted_symbols": [
+            "format_result"
+        ],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": true,
+        "symbol_precision": 1.0,
+        "symbol_recall": 1.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task003",
+        "task": "Find where the result formatting functionality is implemented.",
+        "task_type": "dependency_localization",
+        "agent": "graph_augmented",
+        "status": "completed",
+        "expected_files": [
+            "utils.py"
+        ],
+        "predicted_files": [
+            "utils.py"
+        ],
+        "expected_symbols": [
+            "format_result"
+        ],
+        "predicted_symbols": [],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": false,
+        "symbol_precision": 0.0,
+        "symbol_recall": 0.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task004",
+        "task": "Find which file calculator.py depends on.",
+        "task_type": "dependency_reasoning",
+        "agent": "baseline",
+        "status": "completed",
+        "expected_files": [
+            "utils.py"
+        ],
+        "predicted_files": [
+            "main.py"
+        ],
+        "expected_symbols": [],
+        "predicted_symbols": [
+            "run"
+        ],
+        "expected_relationships": [
+            "calculator.py -> utils.py"
+        ],
+        "predicted_relationships": [],
+        "file_exact_match": false,
+        "file_precision": 0.0,
+        "file_recall": 0.0,
+        "symbol_exact_match": null,
+        "symbol_precision": null,
+        "symbol_recall": null,
+        "relationship_exact_match": false,
+        "relationship_precision": 0.0,
+        "relationship_recall": 0.0,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task004",
+        "task": "Find which file calculator.py depends on.",
+        "task_type": "dependency_reasoning",
+        "agent": "graph_augmented",
+        "status": "completed",
+        "expected_files": [
+            "utils.py"
+        ],
+        "predicted_files": [
+            "main.py"
+        ],
+        "expected_symbols": [],
+        "predicted_symbols": [],
+        "expected_relationships": [
+            "calculator.py -> utils.py"
+        ],
+        "predicted_relationships": [
+            "calculator.py -> utils.py"
+        ],
+        "file_exact_match": false,
+        "file_precision": 0.0,
+        "file_recall": 0.0,
+        "symbol_exact_match": null,
+        "symbol_precision": null,
+        "symbol_recall": null,
+        "relationship_exact_match": true,
+        "relationship_precision": 1.0,
+        "relationship_recall": 1.0,
+        "tool_calls": 0,
+        "graph_dependency_count": 1
+    },
+    {
+        "task_id": "repo001_task005",
+        "task": "Trace the code path from run to multiply.",
+        "task_type": "path_reasoning",
+        "agent": "baseline",
+        "status": "completed",
+        "expected_files": [
+            "main.py",
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "main.py"
+        ],
+        "expected_symbols": [
+            "run",
+            "multiply"
+        ],
+        "predicted_symbols": [
+            "run"
+        ],
+        "expected_relationships": [
+            "main.py:run -> calculator.py:multiply"
+        ],
+        "predicted_relationships": [],
+        "file_exact_match": false,
+        "file_precision": 1.0,
+        "file_recall": 0.5,
+        "symbol_exact_match": false,
+        "symbol_precision": 1.0,
+        "symbol_recall": 0.5,
+        "relationship_exact_match": false,
+        "relationship_precision": 0.0,
+        "relationship_recall": 0.0,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task005",
+        "task": "Trace the code path from run to multiply.",
+        "task_type": "path_reasoning",
+        "agent": "graph_augmented",
+        "status": "completed",
+        "expected_files": [
+            "main.py",
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "calculator.py",
+            "main.py"
+        ],
+        "expected_symbols": [
+            "run",
+            "multiply"
+        ],
+        "predicted_symbols": [
+            "multiply",
+            "run"
+        ],
+        "expected_relationships": [
+            "main.py:run -> calculator.py:multiply"
+        ],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": true,
+        "symbol_precision": 1.0,
+        "symbol_recall": 1.0,
+        "relationship_exact_match": false,
+        "relationship_precision": 0.0,
+        "relationship_recall": 0.0,
+        "tool_calls": 0,
+        "graph_dependency_count": 1
+    },
+    {
+        "task_id": "repo001_task006",
+        "task": "Find the Calculator class.",
+        "task_type": "symbol_localization",
+        "agent": "baseline",
+        "status": "completed",
+        "expected_files": [
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "main.py"
+        ],
+        "expected_symbols": [
+            "Calculator"
+        ],
+        "predicted_symbols": [
+            "run"
+        ],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": false,
+        "file_precision": 0.0,
+        "file_recall": 0.0,
+        "symbol_exact_match": false,
+        "symbol_precision": 0.0,
+        "symbol_recall": 0.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task006",
+        "task": "Find the Calculator class.",
+        "task_type": "symbol_localization",
+        "agent": "graph_augmented",
+        "status": "completed",
+        "expected_files": [
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "calculator.py"
+        ],
+        "expected_symbols": [
+            "Calculator"
+        ],
+        "predicted_symbols": [
+            "Calculator"
+        ],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": true,
+        "symbol_precision": 1.0,
+        "symbol_recall": 1.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 1
+    },
+    {
+        "task_id": "repo001_task007",
+        "task": "Find the function that formats a calculated result.",
+        "task_type": "symbol_localization",
+        "agent": "baseline",
+        "status": "completed",
+        "expected_files": [
+            "utils.py"
+        ],
+        "predicted_files": [
+            "utils.py"
+        ],
+        "expected_symbols": [
+            "format_result"
+        ],
+        "predicted_symbols": [
+            "format_result"
+        ],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": true,
+        "symbol_precision": 1.0,
+        "symbol_recall": 1.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task007",
+        "task": "Find the function that formats a calculated result.",
+        "task_type": "symbol_localization",
+        "agent": "graph_augmented",
+        "status": "completed",
+        "expected_files": [
+            "utils.py"
+        ],
+        "predicted_files": [
+            "utils.py"
+        ],
+        "expected_symbols": [
+            "format_result"
+        ],
+        "predicted_symbols": [],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": false,
+        "symbol_precision": 0.0,
+        "symbol_recall": 0.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task008",
+        "task": "Find which file provides the format_result function used by calculator.py.",
+        "task_type": "dependency_reasoning",
+        "agent": "baseline",
+        "status": "completed",
+        "expected_files": [
+            "utils.py",
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "calculator.py"
+        ],
+        "expected_symbols": [
+            "format_result",
+            "show_result"
+        ],
+        "predicted_symbols": [
+            "add"
+        ],
+        "expected_relationships": [
+            "calculator.py -> utils.py"
+        ],
+        "predicted_relationships": [],
+        "file_exact_match": false,
+        "file_precision": 1.0,
+        "file_recall": 0.5,
+        "symbol_exact_match": false,
+        "symbol_precision": 0.0,
+        "symbol_recall": 0.0,
+        "relationship_exact_match": false,
+        "relationship_precision": 0.0,
+        "relationship_recall": 0.0,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task008",
+        "task": "Find which file provides the format_result function used by calculator.py.",
+        "task_type": "dependency_reasoning",
+        "agent": "graph_augmented",
+        "status": "completed",
+        "expected_files": [
+            "utils.py",
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "utils.py"
+        ],
+        "expected_symbols": [
+            "format_result",
+            "show_result"
+        ],
+        "predicted_symbols": [
+            "format_result"
+        ],
+        "expected_relationships": [
+            "calculator.py -> utils.py"
+        ],
+        "predicted_relationships": [
+            "calculator.py -> utils.py"
+        ],
+        "file_exact_match": false,
+        "file_precision": 1.0,
+        "file_recall": 0.5,
+        "symbol_exact_match": false,
+        "symbol_precision": 1.0,
+        "symbol_recall": 0.5,
+        "relationship_exact_match": true,
+        "relationship_precision": 1.0,
+        "relationship_recall": 1.0,
+        "tool_calls": 0,
+        "graph_dependency_count": 1
+    },
+    {
+        "task_id": "repo001_task009",
+        "task": "Find the function that starts the calculation workflow.",
+        "task_type": "path_reasoning",
+        "agent": "baseline",
+        "status": "completed",
+        "expected_files": [
+            "main.py"
+        ],
+        "predicted_files": [
+            "main.py"
+        ],
+        "expected_symbols": [
+            "run"
+        ],
+        "predicted_symbols": [
+            "run"
+        ],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": true,
+        "symbol_precision": 1.0,
+        "symbol_recall": 1.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task009",
+        "task": "Find the function that starts the calculation workflow.",
+        "task_type": "path_reasoning",
+        "agent": "graph_augmented",
+        "status": "completed",
+        "expected_files": [
+            "main.py"
+        ],
+        "predicted_files": [
+            "main.py"
+        ],
+        "expected_symbols": [
+            "run"
+        ],
+        "predicted_symbols": [],
+        "expected_relationships": [],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": false,
+        "symbol_precision": 0.0,
+        "symbol_recall": 0.0,
+        "relationship_exact_match": null,
+        "relationship_precision": null,
+        "relationship_recall": null,
+        "tool_calls": 0,
+        "graph_dependency_count": 1
+    },
+    {
+        "task_id": "repo001_task010",
+        "task": "Trace how the add function is used by the main program.",
+        "task_type": "path_reasoning",
+        "agent": "baseline",
+        "status": "completed",
+        "expected_files": [
+            "main.py",
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "main.py"
+        ],
+        "expected_symbols": [
+            "run",
+            "add"
+        ],
+        "predicted_symbols": [
+            "run"
+        ],
+        "expected_relationships": [
+            "main.py:run -> calculator.py:add"
+        ],
+        "predicted_relationships": [],
+        "file_exact_match": false,
+        "file_precision": 1.0,
+        "file_recall": 0.5,
+        "symbol_exact_match": false,
+        "symbol_precision": 1.0,
+        "symbol_recall": 0.5,
+        "relationship_exact_match": false,
+        "relationship_precision": 0.0,
+        "relationship_recall": 0.0,
+        "tool_calls": 0,
+        "graph_dependency_count": 0
+    },
+    {
+        "task_id": "repo001_task010",
+        "task": "Trace how the add function is used by the main program.",
+        "task_type": "path_reasoning",
+        "agent": "graph_augmented",
+        "status": "completed",
+        "expected_files": [
+            "main.py",
+            "calculator.py"
+        ],
+        "predicted_files": [
+            "calculator.py",
+            "main.py"
+        ],
+        "expected_symbols": [
+            "run",
+            "add"
+        ],
+        "predicted_symbols": [
+            "add",
+            "run"
+        ],
+        "expected_relationships": [
+            "main.py:run -> calculator.py:add"
+        ],
+        "predicted_relationships": [],
+        "file_exact_match": true,
+        "file_precision": 1.0,
+        "file_recall": 1.0,
+        "symbol_exact_match": true,
+        "symbol_precision": 1.0,
+        "symbol_recall": 1.0,
+        "relationship_exact_match": false,
+        "relationship_precision": 0.0,
+        "relationship_recall": 0.0,
+        "tool_calls": 0,
+        "graph_dependency_count": 1
+    }
+]

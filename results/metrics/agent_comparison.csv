@@ -1,0 +1,11 @@
+task_id,task,agent,expected_files,status,primary_file,retrieved_files,tool_calls,graph_dependency_count,exact_match,precision,recall
+task_001,Find where the multiplication operation is implemented.,baseline,calculator.py,completed,calculator.py,calculator.py;main.py;utils.py,2,0,True,0.3333333333333333,1.0
+task_001,Find where the multiplication operation is implemented.,graph_augmented,calculator.py,completed,calculator.py,calculator.py;main.py;utils.py,3,1,True,0.3333333333333333,1.0
+task_002,Find the function that adds two numbers.,baseline,calculator.py,completed,main.py,main.py;calculator.py;utils.py,2,0,False,0.3333333333333333,1.0
+task_002,Find the function that adds two numbers.,graph_augmented,calculator.py,completed,calculator.py,main.py;calculator.py;utils.py,3,1,True,0.3333333333333333,1.0
+task_003,Find where the result is formatted.,baseline,utils.py,completed,utils.py,utils.py;calculator.py;main.py,2,0,True,0.3333333333333333,1.0
+task_003,Find where the result is formatted.,graph_augmented,utils.py,completed,utils.py,utils.py;calculator.py;main.py,3,0,True,0.3333333333333333,1.0
+task_004,Find which file calculator.py depends on.,baseline,utils.py,completed,main.py,main.py;calculator.py;utils.py,2,0,False,0.3333333333333333,1.0
+task_004,Find which file calculator.py depends on.,graph_augmented,utils.py,completed,main.py,main.py;calculator.py;utils.py,3,1,False,0.3333333333333333,1.0
+task_005,Trace the code path from run to multiply.,baseline,main.py;calculator.py,completed,main.py,main.py;calculator.py;utils.py,2,0,True,0.6666666666666666,1.0
+task_005,Trace the code path from run to multiply.,graph_augmented,main.py;calculator.py,completed,calculator.py,main.py;calculator.py;utils.py,4,1,True,0.6666666666666666,1.0

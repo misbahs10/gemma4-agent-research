@@ -1,0 +1,1443 @@
+[
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task001",
+    "task_type": "symbol_localization",
+    "task": "Find where the multiplication operation is implemented.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "multiply"
+    ],
+    "expected_relationships": [],
+    "primary_file": "calculator.py",
+    "predicted_files": [
+      "calculator.py"
+    ],
+    "predicted_symbols": [
+      "multiply"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task001",
+    "task_type": "symbol_localization",
+    "task": "Find where the multiplication operation is implemented.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "multiply"
+    ],
+    "expected_relationships": [],
+    "primary_file": "calculator.py",
+    "predicted_files": [
+      "calculator.py"
+    ],
+    "predicted_symbols": [
+      "multiply"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task002",
+    "task_type": "symbol_localization",
+    "task": "Find the function that adds two numbers.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "add"
+    ],
+    "expected_relationships": [],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py"
+    ],
+    "predicted_symbols": [
+      "run"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": false,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": false,
+    "file_precision": 0.0,
+    "file_recall": 0.0,
+    "symbol_precision": 0.0,
+    "symbol_recall": 0.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task002",
+    "task_type": "symbol_localization",
+    "task": "Find the function that adds two numbers.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "add"
+    ],
+    "expected_relationships": [],
+    "primary_file": "calculator.py",
+    "predicted_files": [
+      "calculator.py"
+    ],
+    "predicted_symbols": [
+      "add"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task003",
+    "task_type": "dependency_localization",
+    "task": "Find where the result formatting functionality is implemented.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "utils.py"
+    ],
+    "expected_symbols": [
+      "format_result"
+    ],
+    "expected_relationships": [],
+    "primary_file": "utils.py",
+    "predicted_files": [
+      "utils.py"
+    ],
+    "predicted_symbols": [
+      "format_result"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task003",
+    "task_type": "dependency_localization",
+    "task": "Find where the result formatting functionality is implemented.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "utils.py"
+    ],
+    "expected_symbols": [
+      "format_result"
+    ],
+    "expected_relationships": [],
+    "primary_file": "utils.py",
+    "predicted_files": [
+      "utils.py"
+    ],
+    "predicted_symbols": [
+      "format_result"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task004",
+    "task_type": "dependency_reasoning",
+    "task": "Find which file calculator.py depends on.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "utils.py"
+    ],
+    "expected_symbols": [],
+    "expected_relationships": [
+      "calculator.py -> utils.py"
+    ],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py"
+    ],
+    "predicted_symbols": [
+      "run"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": false,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 0.0,
+    "file_recall": 0.0,
+    "symbol_precision": 0.0,
+    "symbol_recall": 0.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task004",
+    "task_type": "dependency_reasoning",
+    "task": "Find which file calculator.py depends on.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "utils.py"
+    ],
+    "expected_symbols": [],
+    "expected_relationships": [
+      "calculator.py -> utils.py"
+    ],
+    "primary_file": "calculator.py",
+    "predicted_files": [
+      "calculator.py"
+    ],
+    "predicted_symbols": [
+      "Calculator"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": false,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 0.0,
+    "file_recall": 0.0,
+    "symbol_precision": 0.0,
+    "symbol_recall": 0.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task005",
+    "task_type": "path_reasoning",
+    "task": "Trace the code path from run to multiply.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "main.py",
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "run",
+      "multiply"
+    ],
+    "expected_relationships": [
+      "main.py:run -> calculator.py:multiply"
+    ],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py"
+    ],
+    "predicted_symbols": [
+      "run"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 0.5,
+    "symbol_precision": 1.0,
+    "symbol_recall": 0.5,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task005",
+    "task_type": "path_reasoning",
+    "task": "Trace the code path from run to multiply.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "main.py",
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "run",
+      "multiply"
+    ],
+    "expected_relationships": [
+      "main.py:run -> calculator.py:multiply"
+    ],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py",
+      "calculator.py"
+    ],
+    "predicted_symbols": [
+      "run",
+      "multiply"
+    ],
+    "predicted_relationships": [
+      "main.py:run -> calculator.py:multiply"
+    ],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 1.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 1.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task006",
+    "task_type": "symbol_localization",
+    "task": "Find the Calculator class.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "Calculator"
+    ],
+    "expected_relationships": [],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py"
+    ],
+    "predicted_symbols": [
+      "run"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": false,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": false,
+    "file_precision": 0.0,
+    "file_recall": 0.0,
+    "symbol_precision": 0.0,
+    "symbol_recall": 0.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task006",
+    "task_type": "symbol_localization",
+    "task": "Find the Calculator class.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "Calculator"
+    ],
+    "expected_relationships": [],
+    "primary_file": "calculator.py",
+    "predicted_files": [
+      "calculator.py"
+    ],
+    "predicted_symbols": [
+      "Calculator"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task007",
+    "task_type": "symbol_localization",
+    "task": "Find the function that formats a calculated result.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "utils.py"
+    ],
+    "expected_symbols": [
+      "format_result"
+    ],
+    "expected_relationships": [],
+    "primary_file": "utils.py",
+    "predicted_files": [
+      "utils.py"
+    ],
+    "predicted_symbols": [
+      "format_result"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task007",
+    "task_type": "symbol_localization",
+    "task": "Find the function that formats a calculated result.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "utils.py"
+    ],
+    "expected_symbols": [
+      "format_result"
+    ],
+    "expected_relationships": [],
+    "primary_file": "",
+    "predicted_files": [],
+    "predicted_symbols": [],
+    "predicted_relationships": [],
+    "primary_file_match": false,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": false,
+    "file_precision": 0.0,
+    "file_recall": 0.0,
+    "symbol_precision": 0.0,
+    "symbol_recall": 0.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task008",
+    "task_type": "dependency_reasoning",
+    "task": "Find which file provides the format_result function used by calculator.py.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "utils.py",
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "format_result",
+      "show_result"
+    ],
+    "expected_relationships": [
+      "calculator.py -> utils.py"
+    ],
+    "primary_file": "calculator.py",
+    "predicted_files": [
+      "calculator.py"
+    ],
+    "predicted_symbols": [
+      "add"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 0.5,
+    "symbol_precision": 0.0,
+    "symbol_recall": 0.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task008",
+    "task_type": "dependency_reasoning",
+    "task": "Find which file provides the format_result function used by calculator.py.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "utils.py",
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "format_result",
+      "show_result"
+    ],
+    "expected_relationships": [
+      "calculator.py -> utils.py"
+    ],
+    "primary_file": "utils.py",
+    "predicted_files": [
+      "utils.py",
+      "calculator.py"
+    ],
+    "predicted_symbols": [
+      "format_result",
+      "Calculator"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 0.5,
+    "symbol_recall": 0.5,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task009",
+    "task_type": "path_reasoning",
+    "task": "Find the function that starts the calculation workflow.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "main.py"
+    ],
+    "expected_symbols": [
+      "run"
+    ],
+    "expected_relationships": [],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py"
+    ],
+    "predicted_symbols": [
+      "run"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task009",
+    "task_type": "path_reasoning",
+    "task": "Find the function that starts the calculation workflow.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "main.py"
+    ],
+    "expected_symbols": [
+      "run"
+    ],
+    "expected_relationships": [],
+    "primary_file": "",
+    "predicted_files": [],
+    "predicted_symbols": [],
+    "predicted_relationships": [],
+    "primary_file_match": false,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": false,
+    "file_precision": 0.0,
+    "file_recall": 0.0,
+    "symbol_precision": 0.0,
+    "symbol_recall": 0.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task010",
+    "task_type": "path_reasoning",
+    "task": "Trace how the add function is used by the main program.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "main.py",
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "run",
+      "add"
+    ],
+    "expected_relationships": [
+      "main.py:run -> calculator.py:add"
+    ],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py"
+    ],
+    "predicted_symbols": [
+      "run"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 0.5,
+    "symbol_precision": 1.0,
+    "symbol_recall": 0.5,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo001",
+    "task_id": "repo001_task010",
+    "task_type": "path_reasoning",
+    "task": "Trace how the add function is used by the main program.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "main.py",
+      "calculator.py"
+    ],
+    "expected_symbols": [
+      "run",
+      "add"
+    ],
+    "expected_relationships": [
+      "main.py:run -> calculator.py:add"
+    ],
+    "primary_file": "calculator.py",
+    "predicted_files": [
+      "calculator.py",
+      "main.py"
+    ],
+    "predicted_symbols": [
+      "add",
+      "run"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task001",
+    "task_type": "symbol_localization",
+    "task": "Find where the create_order function is implemented.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "order_service.py"
+    ],
+    "expected_symbols": [
+      "create_order"
+    ],
+    "expected_relationships": [],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py"
+    ],
+    "predicted_symbols": [
+      "run"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": false,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": false,
+    "file_precision": 0.0,
+    "file_recall": 0.0,
+    "symbol_precision": 0.0,
+    "symbol_recall": 0.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task001",
+    "task_type": "symbol_localization",
+    "task": "Find where the create_order function is implemented.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "order_service.py"
+    ],
+    "expected_symbols": [
+      "create_order"
+    ],
+    "expected_relationships": [],
+    "primary_file": "order_service.py",
+    "predicted_files": [
+      "order_service.py"
+    ],
+    "predicted_symbols": [
+      "create_order"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task002",
+    "task_type": "symbol_localization",
+    "task": "Find where the calculate_total function is implemented.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "pricing.py"
+    ],
+    "expected_symbols": [
+      "calculate_total"
+    ],
+    "expected_relationships": [],
+    "primary_file": "pricing.py",
+    "predicted_files": [
+      "pricing.py"
+    ],
+    "predicted_symbols": [
+      "calculate_total"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task002",
+    "task_type": "symbol_localization",
+    "task": "Find where the calculate_total function is implemented.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "pricing.py"
+    ],
+    "expected_symbols": [
+      "calculate_total"
+    ],
+    "expected_relationships": [],
+    "primary_file": "pricing.py",
+    "predicted_files": [
+      "pricing.py"
+    ],
+    "predicted_symbols": [
+      "calculate_total"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task003",
+    "task_type": "symbol_localization",
+    "task": "Find where the apply_discount function is implemented.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "discounts.py"
+    ],
+    "expected_symbols": [
+      "apply_discount"
+    ],
+    "expected_relationships": [],
+    "primary_file": "discounts.py",
+    "predicted_files": [
+      "discounts.py"
+    ],
+    "predicted_symbols": [
+      "apply_discount"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task003",
+    "task_type": "symbol_localization",
+    "task": "Find where the apply_discount function is implemented.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "discounts.py"
+    ],
+    "expected_symbols": [
+      "apply_discount"
+    ],
+    "expected_relationships": [],
+    "primary_file": "discounts.py",
+    "predicted_files": [
+      "discounts.py"
+    ],
+    "predicted_symbols": [
+      "apply_discount"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 0.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task004",
+    "task_type": "path_reasoning",
+    "task": "Trace the function call from run in main.py to create_order in order_service.py.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "main.py",
+      "order_service.py"
+    ],
+    "expected_symbols": [
+      "run",
+      "create_order"
+    ],
+    "expected_relationships": [
+      "main.py:run -> order_service.py:create_order"
+    ],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py"
+    ],
+    "predicted_symbols": [
+      "run"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 0.5,
+    "symbol_precision": 1.0,
+    "symbol_recall": 0.5,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task004",
+    "task_type": "path_reasoning",
+    "task": "Trace the function call from run in main.py to create_order in order_service.py.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "main.py",
+      "order_service.py"
+    ],
+    "expected_symbols": [
+      "run",
+      "create_order"
+    ],
+    "expected_relationships": [
+      "main.py:run -> order_service.py:create_order"
+    ],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py",
+      "order_service.py"
+    ],
+    "predicted_symbols": [
+      "run",
+      "create_order"
+    ],
+    "predicted_relationships": [
+      "main.py:run -> order_service.py:create_order"
+    ],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 1.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 1.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task005",
+    "task_type": "path_reasoning",
+    "task": "Trace how create_order calls calculate_total across the order service and pricing modules.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "order_service.py",
+      "pricing.py"
+    ],
+    "expected_symbols": [
+      "create_order",
+      "calculate_total"
+    ],
+    "expected_relationships": [
+      "order_service.py:create_order -> pricing.py:calculate_total"
+    ],
+    "primary_file": "order_service.py",
+    "predicted_files": [
+      "order_service.py"
+    ],
+    "predicted_symbols": [
+      "create_order"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 0.5,
+    "symbol_precision": 1.0,
+    "symbol_recall": 0.5,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task005",
+    "task_type": "path_reasoning",
+    "task": "Trace how create_order calls calculate_total across the order service and pricing modules.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "order_service.py",
+      "pricing.py"
+    ],
+    "expected_symbols": [
+      "create_order",
+      "calculate_total"
+    ],
+    "expected_relationships": [
+      "order_service.py:create_order -> pricing.py:calculate_total"
+    ],
+    "primary_file": "order_service.py",
+    "predicted_files": [
+      "order_service.py",
+      "pricing.py"
+    ],
+    "predicted_symbols": [
+      "create_order",
+      "calculate_total"
+    ],
+    "predicted_relationships": [
+      "order_service.py:create_order -> pricing.py:calculate_total"
+    ],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 1.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 1.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task006",
+    "task_type": "path_reasoning",
+    "task": "Trace how calculate_total delegates the discount calculation to apply_discount.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "pricing.py",
+      "discounts.py"
+    ],
+    "expected_symbols": [
+      "calculate_total",
+      "apply_discount"
+    ],
+    "expected_relationships": [
+      "pricing.py:calculate_total -> discounts.py:apply_discount"
+    ],
+    "primary_file": "pricing.py",
+    "predicted_files": [
+      "pricing.py"
+    ],
+    "predicted_symbols": [
+      "calculate_total"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 0.5,
+    "symbol_precision": 1.0,
+    "symbol_recall": 0.5,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task006",
+    "task_type": "path_reasoning",
+    "task": "Trace how calculate_total delegates the discount calculation to apply_discount.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "pricing.py",
+      "discounts.py"
+    ],
+    "expected_symbols": [
+      "calculate_total",
+      "apply_discount"
+    ],
+    "expected_relationships": [
+      "pricing.py:calculate_total -> discounts.py:apply_discount"
+    ],
+    "primary_file": "pricing.py",
+    "predicted_files": [
+      "pricing.py",
+      "discounts.py"
+    ],
+    "predicted_symbols": [
+      "calculate_total",
+      "apply_discount"
+    ],
+    "predicted_relationships": [
+      "pricing.py:calculate_total -> discounts.py:apply_discount"
+    ],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 1.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 1.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task007",
+    "task_type": "path_reasoning",
+    "task": "Trace the order-processing flow from run in main.py through create_order to calculate_total in pricing.py. Return the files, symbols, and direct function-call relationships involved.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "main.py",
+      "order_service.py",
+      "pricing.py"
+    ],
+    "expected_symbols": [
+      "run",
+      "create_order",
+      "calculate_total"
+    ],
+    "expected_relationships": [
+      "main.py:run -> order_service.py:create_order",
+      "order_service.py:create_order -> pricing.py:calculate_total"
+    ],
+    "primary_file": "order_service.py",
+    "predicted_files": [
+      "order_service.py"
+    ],
+    "predicted_symbols": [
+      "create_order"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 0.3333333333333333,
+    "symbol_precision": 1.0,
+    "symbol_recall": 0.3333333333333333,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task007",
+    "task_type": "path_reasoning",
+    "task": "Trace the order-processing flow from run in main.py through create_order to calculate_total in pricing.py. Return the files, symbols, and direct function-call relationships involved.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "main.py",
+      "order_service.py",
+      "pricing.py"
+    ],
+    "expected_symbols": [
+      "run",
+      "create_order",
+      "calculate_total"
+    ],
+    "expected_relationships": [
+      "main.py:run -> order_service.py:create_order",
+      "order_service.py:create_order -> pricing.py:calculate_total"
+    ],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py",
+      "order_service.py",
+      "pricing.py"
+    ],
+    "predicted_symbols": [
+      "run",
+      "create_order",
+      "calculate_total"
+    ],
+    "predicted_relationships": [
+      "main.py:run -> order_service.py:create_order",
+      "order_service.py:create_order -> pricing.py:calculate_total"
+    ],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": true,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": true,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 1.0,
+    "relationship_precision": 1.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 1.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task008",
+    "task_type": "path_reasoning",
+    "task": "Trace the complete function-call chain from run in main.py to apply_discount in discounts.py. Return all participating files, symbols, and direct function-call relationships.",
+    "agent": "baseline",
+    "status": "completed",
+    "expected_files": [
+      "main.py",
+      "order_service.py",
+      "pricing.py",
+      "discounts.py"
+    ],
+    "expected_symbols": [
+      "run",
+      "create_order",
+      "calculate_total",
+      "apply_discount"
+    ],
+    "expected_relationships": [
+      "main.py:run -> order_service.py:create_order",
+      "order_service.py:create_order -> pricing.py:calculate_total",
+      "pricing.py:calculate_total -> discounts.py:apply_discount"
+    ],
+    "primary_file": "pricing.py",
+    "predicted_files": [
+      "pricing.py"
+    ],
+    "predicted_symbols": [
+      "calculate_total"
+    ],
+    "predicted_relationships": [],
+    "primary_file_match": true,
+    "file_set_exact_match": false,
+    "symbol_exact_match": false,
+    "relationship_exact_match": false,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 0.25,
+    "symbol_precision": 1.0,
+    "symbol_recall": 0.25,
+    "relationship_precision": 0.0,
+    "relationship_recall": 0.0,
+    "relationship_f1": 0.0,
+    "tool_calls": 2,
+    "graph_dependency_count": 0
+  },
+  {
+    "repository_id": "repo002",
+    "task_id": "repo002_task008",
+    "task_type": "path_reasoning",
+    "task": "Trace the complete function-call chain from run in main.py to apply_discount in discounts.py. Return all participating files, symbols, and direct function-call relationships.",
+    "agent": "graph_augmented",
+    "status": "completed",
+    "expected_files": [
+      "main.py",
+      "order_service.py",
+      "pricing.py",
+      "discounts.py"
+    ],
+    "expected_symbols": [
+      "run",
+      "create_order",
+      "calculate_total",
+      "apply_discount"
+    ],
+    "expected_relationships": [
+      "main.py:run -> order_service.py:create_order",
+      "order_service.py:create_order -> pricing.py:calculate_total",
+      "pricing.py:calculate_total -> discounts.py:apply_discount"
+    ],
+    "primary_file": "main.py",
+    "predicted_files": [
+      "main.py",
+      "discounts.py",
+      "order_service.py",
+      "pricing.py"
+    ],
+    "predicted_symbols": [
+      "run",
+      "apply_discount"
+    ],
+    "predicted_relationships": [
+      "main.py:run -> order_service.py:create_order",
+      "order_service.py:create_order -> pricing.py:calculate_total",
+      "pricing.py:calculate_total -> discounts.py:apply_discount"
+    ],
+    "primary_file_match": true,
+    "file_set_exact_match": true,
+    "symbol_exact_match": false,
+    "relationship_exact_match": true,
+    "complete_answer_exact_match": false,
+    "file_precision": 1.0,
+    "file_recall": 1.0,
+    "symbol_precision": 1.0,
+    "symbol_recall": 0.5,
+    "relationship_precision": 1.0,
+    "relationship_recall": 1.0,
+    "relationship_f1": 1.0,
+    "tool_calls": 0,
+    "graph_dependency_count": 0
+  }
+]

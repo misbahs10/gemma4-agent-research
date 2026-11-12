@@ -1,0 +1,5 @@
+mode,queries,mean_precision_at_3,mean_recall_at_3,mean_mrr
+semantic,4,0.5,1.0,0.75
+dependencies,4,0.5,1.0,0.75
+dependents,4,0.5,1.0,0.75
+full,4,0.5,1.0,0.75

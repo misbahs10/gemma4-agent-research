@@ -1,0 +1,4 @@
+method,precision_at_3,recall_at_3,mrr
+lexical,0.5416666666666666,0.625,0.625
+semantic,0.5,1.0,0.75
+graph_augmented,0.5,1.0,0.75

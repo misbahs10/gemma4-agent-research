@@ -1,0 +1,17 @@
+mode,query,relevant_files,retrieved_files,precision_at_3,recall_at_3,mrr
+semantic,multiply calculator,calculator.py,main.py;calculator.py;utils.py,0.3333333333333333,1.0,0.5
+semantic,perform multiplication,calculator.py,main.py;calculator.py;utils.py,0.3333333333333333,1.0,0.5
+semantic,calculate total,main.py;calculator.py,main.py;calculator.py;utils.py,0.6666666666666666,1.0,1.0
+semantic,format result,utils.py;calculator.py,utils.py;calculator.py;main.py,0.6666666666666666,1.0,1.0
+dependencies,multiply calculator,calculator.py,main.py;calculator.py;utils.py,0.3333333333333333,1.0,0.5
+dependencies,perform multiplication,calculator.py,main.py;calculator.py;utils.py,0.3333333333333333,1.0,0.5
+dependencies,calculate total,main.py;calculator.py,main.py;calculator.py;utils.py,0.6666666666666666,1.0,1.0
+dependencies,format result,utils.py;calculator.py,utils.py;calculator.py;main.py,0.6666666666666666,1.0,1.0
+dependents,multiply calculator,calculator.py,main.py;calculator.py;utils.py,0.3333333333333333,1.0,0.5
+dependents,perform multiplication,calculator.py,main.py;calculator.py;utils.py,0.3333333333333333,1.0,0.5
+dependents,calculate total,main.py;calculator.py,main.py;calculator.py;utils.py,0.6666666666666666,1.0,1.0
+dependents,format result,utils.py;calculator.py,utils.py;calculator.py;main.py,0.6666666666666666,1.0,1.0
+full,multiply calculator,calculator.py,main.py;calculator.py;utils.py,0.3333333333333333,1.0,0.5
+full,perform multiplication,calculator.py,main.py;calculator.py;utils.py,0.3333333333333333,1.0,0.5
+full,calculate total,main.py;calculator.py,main.py;calculator.py;utils.py,0.6666666666666666,1.0,1.0
+full,format result,utils.py;calculator.py,utils.py;calculator.py;main.py,0.6666666666666666,1.0,1.0

@@ -1,0 +1,5 @@
+configuration,precision_at_3,recall_at_3,mrr
+Semantic Only,0.5,1.0,0.75
+Semantic + Dependencies,0.5,1.0,0.75
+Semantic + Dependents,0.5,1.0,0.75
+Semantic + Dependencies + Dependents,0.5,1.0,0.75

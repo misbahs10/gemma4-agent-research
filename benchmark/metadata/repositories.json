@@ -1,0 +1,20 @@
+{
+    "repositories": [
+        {
+            "repository_id": "repo001",
+            "name": "sample_repository",
+            "path": "data/raw/sample_repo",
+            "language": "python",
+            "source": "local_development_repository",
+            "purpose": "Pipeline validation"
+        },
+        {
+            "repository_id": "repo002",
+            "name": "order_app_repo",
+            "path": "data/raw/order_app_repo",
+            "language": "python",
+            "source": "local_development_repository",
+            "purpose": "Multi-file order processing, pricing, and discount call-chain evaluation"
+        }
+    ]
+}

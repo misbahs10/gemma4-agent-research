@@ -1,0 +1,146 @@
+{
+  "tasks": [
+    {
+      "id": "repo001_task001",
+      "task": "Find where the multiplication operation is implemented.",
+      "expected_files": [
+        "calculator.py"
+      ],
+      "expected_symbols": [
+        "multiply"
+      ],
+      "expected_relationships": [],
+      "task_type": "symbol_localization",
+      "repository_id": "repo001"
+    },
+    {
+      "id": "repo001_task002",
+      "task": "Find the function that adds two numbers.",
+      "expected_files": [
+        "calculator.py"
+      ],
+      "expected_symbols": [
+        "add"
+      ],
+      "expected_relationships": [],
+      "task_type": "symbol_localization",
+      "repository_id": "repo001"
+    },
+    {
+      "id": "repo001_task003",
+      "task": "Find where the result formatting functionality is implemented.",
+      "expected_files": [
+        "utils.py"
+      ],
+      "expected_symbols": [
+        "format_result"
+      ],
+      "expected_relationships": [],
+      "task_type": "dependency_localization",
+      "repository_id": "repo001"
+    },
+    {
+      "id": "repo001_task004",
+      "task": "Find which file calculator.py depends on.",
+      "expected_files": [
+        "utils.py"
+      ],
+      "expected_symbols": [],
+      "expected_relationships": [
+        "calculator.py -> utils.py"
+      ],
+      "task_type": "dependency_reasoning",
+      "repository_id": "repo001"
+    },
+    {
+      "id": "repo001_task005",
+      "task": "Trace the code path from run to multiply.",
+      "expected_files": [
+        "main.py",
+        "calculator.py"
+      ],
+      "expected_symbols": [
+        "run",
+        "multiply"
+      ],
+      "expected_relationships": [
+        "main.py:run -> calculator.py:multiply"
+      ],
+      "task_type": "path_reasoning",
+      "repository_id": "repo001"
+    },
+    {
+      "id": "repo001_task006",
+      "task": "Find the Calculator class.",
+      "expected_files": [
+        "calculator.py"
+      ],
+      "expected_symbols": [
+        "Calculator"
+      ],
+      "expected_relationships": [],
+      "task_type": "symbol_localization",
+      "repository_id": "repo001"
+    },
+    {
+      "id": "repo001_task007",
+      "task": "Find the function that formats a calculated result.",
+      "expected_files": [
+        "utils.py"
+      ],
+      "expected_symbols": [
+        "format_result"
+      ],
+      "expected_relationships": [],
+      "task_type": "symbol_localization",
+      "repository_id": "repo001"
+    },
+    {
+      "id": "repo001_task008",
+      "task": "Find which file provides the format_result function used by calculator.py.",
+      "expected_files": [
+        "utils.py",
+        "calculator.py"
+      ],
+      "expected_symbols": [
+        "format_result",
+        "show_result"
+      ],
+      "expected_relationships": [
+        "calculator.py -> utils.py"
+      ],
+      "task_type": "dependency_reasoning",
+      "repository_id": "repo001"
+    },
+    {
+      "id": "repo001_task009",
+      "task": "Find the function that starts the calculation workflow.",
+      "expected_files": [
+        "main.py"
+      ],
+      "expected_symbols": [
+        "run"
+      ],
+      "expected_relationships": [],
+      "task_type": "path_reasoning",
+      "repository_id": "repo001"
+    },
+    {
+      "id": "repo001_task010",
+      "task": "Trace how the add function is used by the main program.",
+      "expected_files": [
+        "main.py",
+        "calculator.py"
+      ],
+      "expected_symbols": [
+        "run",
+        "add"
+      ],
+      "expected_relationships": [
+        "main.py:run -> calculator.py:add"
+      ],
+      "task_type": "path_reasoning",
+      "repository_id": "repo001"
+    }
+  ]
+}

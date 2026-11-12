@@ -1,0 +1,204 @@
+[
+    {
+        "task_id": "task_001",
+        "task": "Find where the multiplication operation is implemented.",
+        "agent": "baseline",
+        "expected_files": [
+            "calculator.py"
+        ],
+        "status": "completed",
+        "primary_file": "calculator.py",
+        "retrieved_files": [
+            "calculator.py",
+            "main.py",
+            "utils.py"
+        ],
+        "tool_calls": 2,
+        "graph_dependency_count": 0,
+        "exact_match": true,
+        "precision": 0.3333333333333333,
+        "recall": 1.0
+    },
+    {
+        "task_id": "task_001",
+        "task": "Find where the multiplication operation is implemented.",
+        "agent": "graph_augmented",
+        "expected_files": [
+            "calculator.py"
+        ],
+        "status": "completed",
+        "primary_file": "calculator.py",
+        "retrieved_files": [
+            "calculator.py",
+            "main.py",
+            "utils.py"
+        ],
+        "tool_calls": 3,
+        "graph_dependency_count": 1,
+        "exact_match": true,
+        "precision": 0.3333333333333333,
+        "recall": 1.0
+    },
+    {
+        "task_id": "task_002",
+        "task": "Find the function that adds two numbers.",
+        "agent": "baseline",
+        "expected_files": [
+            "calculator.py"
+        ],
+        "status": "completed",
+        "primary_file": "main.py",
+        "retrieved_files": [
+            "main.py",
+            "calculator.py",
+            "utils.py"
+        ],
+        "tool_calls": 2,
+        "graph_dependency_count": 0,
+        "exact_match": false,
+        "precision": 0.3333333333333333,
+        "recall": 1.0
+    },
+    {
+        "task_id": "task_002",
+        "task": "Find the function that adds two numbers.",
+        "agent": "graph_augmented",
+        "expected_files": [
+            "calculator.py"
+        ],
+        "status": "completed",
+        "primary_file": "calculator.py",
+        "retrieved_files": [
+            "main.py",
+            "calculator.py",
+            "utils.py"
+        ],
+        "tool_calls": 3,
+        "graph_dependency_count": 1,
+        "exact_match": true,
+        "precision": 0.3333333333333333,
+        "recall": 1.0
+    },
+    {
+        "task_id": "task_003",
+        "task": "Find where the result is formatted.",
+        "agent": "baseline",
+        "expected_files": [
+            "utils.py"
+        ],
+        "status": "completed",
+        "primary_file": "utils.py",
+        "retrieved_files": [
+            "utils.py",
+            "calculator.py",
+            "main.py"
+        ],
+        "tool_calls": 2,
+        "graph_dependency_count": 0,
+        "exact_match": true,
+        "precision": 0.3333333333333333,
+        "recall": 1.0
+    },
+    {
+        "task_id": "task_003",
+        "task": "Find where the result is formatted.",
+        "agent": "graph_augmented",
+        "expected_files": [
+            "utils.py"
+        ],
+        "status": "completed",
+        "primary_file": "utils.py",
+        "retrieved_files": [
+            "utils.py",
+            "calculator.py",
+            "main.py"
+        ],
+        "tool_calls": 3,
+        "graph_dependency_count": 0,
+        "exact_match": true,
+        "precision": 0.3333333333333333,
+        "recall": 1.0
+    },
+    {
+        "task_id": "task_004",
+        "task": "Find which file calculator.py depends on.",
+        "agent": "baseline",
+        "expected_files": [
+            "utils.py"
+        ],
+        "status": "completed",
+        "primary_file": "main.py",
+        "retrieved_files": [
+            "main.py",
+            "calculator.py",
+            "utils.py"
+        ],
+        "tool_calls": 2,
+        "graph_dependency_count": 0,
+        "exact_match": false,
+        "precision": 0.3333333333333333,
+        "recall": 1.0
+    },
+    {
+        "task_id": "task_004",
+        "task": "Find which file calculator.py depends on.",
+        "agent": "graph_augmented",
+        "expected_files": [
+            "utils.py"
+        ],
+        "status": "completed",
+        "primary_file": "main.py",
+        "retrieved_files": [
+            "main.py",
+            "calculator.py",
+            "utils.py"
+        ],
+        "tool_calls": 3,
+        "graph_dependency_count": 1,
+        "exact_match": false,
+        "precision": 0.3333333333333333,
+        "recall": 1.0
+    },
+    {
+        "task_id": "task_005",
+        "task": "Trace the code path from run to multiply.",
+        "agent": "baseline",
+        "expected_files": [
+            "main.py",
+            "calculator.py"
+        ],
+        "status": "completed",
+        "primary_file": "main.py",
+        "retrieved_files": [
+            "main.py",
+            "calculator.py",
+            "utils.py"
+        ],
+        "tool_calls": 2,
+        "graph_dependency_count": 0,
+        "exact_match": true,
+        "precision": 0.6666666666666666,
+        "recall": 1.0
+    },
+    {
+        "task_id": "task_005",
+        "task": "Trace the code path from run to multiply.",
+        "agent": "graph_augmented",
+        "expected_files": [
+            "main.py",
+            "calculator.py"
+        ],
+        "status": "completed",
+        "primary_file": "calculator.py",
+        "retrieved_files": [
+            "main.py",
+            "calculator.py",
+            "utils.py"
+        ],
+        "tool_calls": 4,
+        "graph_dependency_count": 1,
+        "exact_match": true,
+        "precision": 0.6666666666666666,
+        "recall": 1.0
+    }
+]

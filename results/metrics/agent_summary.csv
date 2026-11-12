@@ -1,0 +1,3 @@
+agent,tasks,exact_match_rate,average_precision,average_recall,average_tool_calls
+baseline,5,0.6,0.4,1.0,2.0
+graph_augmented,5,0.8,0.4,1.0,3.2
